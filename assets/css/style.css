@@ -1,0 +1,52 @@
+:root {
+    --megasena: #0a3311;
+    --lotofacil: #852184;
+    --quina: #1c17a7;
+    --lotomania: #f16001;
+    --duplasena: #a5112a;
+    --timemania: #ffea00;
+}
+.tamanho-cards{
+    width: 350px !important;
+    margin: 10px;
+}
+.pai{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.raio{
+    border-radius: 5px;
+}
+.dados span:first-of-type{
+    margin-right: 10px;
+}
+.dezenas{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.numero{
+    width: auto;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 80px;
+    height: auto;
+}
+.informacoes{
+    margin-top: 10px;
+}
+.loterias{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+}
